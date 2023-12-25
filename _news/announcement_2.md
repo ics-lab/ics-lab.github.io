@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: 2023 JCCI 학회 참석 및 발표
 date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Members
 nav: true
-nav_order: 7
+nav_order: 0
 dropdown: true
-children:
-    - title: publications
-      permalink: /publications/
+children: 
+    - title: Professor
+      permalink: /professor/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Researchers
+      permalink: /researchers/
 ---

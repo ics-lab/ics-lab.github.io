@@ -4,23 +4,10 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
-              {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
+            <img class="logo-img" src="/al-folio/assets/img/logo_black_small2.png" height="30">
           </a>
-          {%- elsif site.enable_navbar_social -%}
+          {%- if site.enable_navbar_social -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
@@ -67,15 +54,9 @@
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
-              {%- assign has_active_child = false -%}
-              {%- for child in p.children -%}
-              {%- if page.title == child.title -%}
-              {%- assign has_active_child = true -%}
-              {%- endif -%}
-              {%- endfor -%}
-              <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
+              <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
-                  {%- if page.title == p.title or has_active_child -%}
+                  {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -84,7 +65,7 @@
                   {%- if child.title == 'divider' %}
                   <div class="dropdown-divider"></div>
                   {%- else %}
-                  <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
+                  <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
                   {%- endif -%}
                   {% endfor %}
                 </div>
@@ -105,8 +86,8 @@
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
-                  <i class="fa-solid fa-moon"></i>
-                  <i class="fa-solid fa-sun"></i>
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
                 </button>
               </li>
               {%- endif %}

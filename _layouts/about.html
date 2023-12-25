@@ -3,13 +3,30 @@ layout: default
 ---
 
 <!-- about.html -->
+<style type="text/css">
+ 
+  #home-content{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+</style>
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+            <span class="font-weight-bold">Welcome to ICS Lab</span>
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
         </header>
+        <hr>
+        <div class="row">
+          <div class="col-sm mt-3 mt-md-0">
+            <figure>
+              <picture>
+                <img src="/al-folio/assets/img/logo/MF_Blog_ParsingCarving_0622_Header.webp" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+              </picture>
+            </figure>
+          </div>
+        </div>
 
         <article>
           {% if page.profile -%}
@@ -26,52 +43,257 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
+              alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
             </div>
             {%- endif %}
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix" id="home-content">
             {{ content }}
           </div>
-
+          <br>
+          <h3><span class="font-weight-bold">Research Interests</span></h3>
+          <hr>
+          <div class="container">
+            <ul>
+              <li>ICS (<b>I</b>ntelligent digital forensi<b>CS</b>), AI-based IoT Devices, Linux File System, Mobile platform forensics</li>
+              <li>ICS (<b>I</b>n-vehicle network <b>C</b>yber <b>S</b>ecurity), Autonomous Vehicle Security</li>
+              <li>ICS (<b>I</b>ndustrial <b>C</b>ontrol <b>S</b>ystem), Smart Grid Security (EMS, SCADA, FEP/RTU)</li>
+              <li>Network/System Intrusion, Behavioral Abnormal Detection</li>
+              <li>Network/System Penetration Test/Vulnerability Analyzing</li>
+              <li>and many hot items in convergence security areas</li>
+            </ul>
+          </div>
+          <br>
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit;"><span class="font-weight-bold">News</span></a></h3>
+            <hr>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+                  <picture>
+                    <img src="/al-folio/assets/img/logo/Conference_WebTile_23APAC.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                  </picture>
+                </figure>
+                <div class="caption"> This image can also have a caption. It's like magic. </div>
+              </div>
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+                  <picture>
+                    <img src="/al-folio/assets/img/logo/231012_electric.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                  </picture>
+                </figure>
+                <div class="caption"> This image can also have a caption. It's like magic. </div>
+              </div>
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+                  <picture>
+                    <img src="/al-folio/assets/img/logo/230522_lecture_1.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                  </picture>
+                </figure>
+                <div class="caption"> This image can also have a caption. It's like magic. </div>
+              </div>
+            </div>  
             {%- include news.html limit=true %}
           {%- endif %}
-
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
+          <br>
+          <h3><span class="font-weight-bold">Joint Research Institutes</span></h3>
+          <hr>
+          <div class="row align-items-center">
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/nsr.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
             </div>
-          {%- endif %}
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/etri.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/nis.jpeg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/prosecutor.jpeg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/police.jpeg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+          </div>
+          <br>
+          <div class="row align-items-center">
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/copyright.png" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kpx.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kier.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/ketep.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kdn.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+          </div>
+          <br>
+          <div class="row align-items-center">
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/samsung.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/hyundai.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kisa.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/ls.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kepco.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+          </div>
+          <br>
+          <div class="row align-items-center">
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/linc.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/bluehouse.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/record.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/industry.png" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/nrf.svg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+          </div>
+          <br>
+          <div class="row align-items-center">
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/tta.jpeg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/bk21.png" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/iitp.jpg" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/kiisc.png" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 justify-content-center align-items-center">
+              <figure>
+                <picture>
+                  <img src="/al-folio/assets/img/logo/ksf.png" class="img-fluid rounded">
+                </picture>
+              </figure>
+            </div>
+          </div>
         </article>
 
 </div>

@@ -1,12 +1,23 @@
 ---
 layout: default
 ---
+
+
 <!-- _layouts/cv.html -->
+
+<style type="text/css">
+ 
+  #home-content{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
+
 {% unless site.data.resume %}
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
@@ -41,11 +52,34 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
-    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
   </header>
-
+  <br>
+  <div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+      <figure>
+        <picture>
+          <img src="/al-folio/assets/img/prof_shon.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image">
+        </picture>
+      </figure>
+      <div class="caption"><strong>Prof. Taeshik Shon, Ph.D</strong></div>
+    </div>
+  </div>
+  {% if page.description %}<p class="post-description" id="home-content">{{ page.description }}</p>{% endif %}
   <article>
+    <h3><span class="font-weight-bold">Career</span></h3>
+    <hr>
+     국가정보원 정보보안 실태 평가위원, 
+     한국전력 정보보안 자문위원, 
+     디지털 포렌식 표준화 포럼 자문위원, 
+     원전 사이버보안 워킹그룹 위원,CC인증위원회 위원, 
+     스마트그리드 핵심 보안기술 자문위원, 
+     한국정보보호학회 이사, 한국정보처리학회 이사,  한국디지털포렌식학회 이사
+     Associate Editor(Seurity and Communication Networks, Wiley) 
+     Associate Editor(J.of Parallel, Emergent and Distributed Systems,Taylor and Francis) 
+  
+     2005-2011 삼성전자 통신연구소/DMC연구소 책임연구원
+     2004-2005  University of Minnesota Research Scholar
     <div class="cv">
       {% for data in site.data.resume %}
         {% if site.jsonresume and site.jsonresume.size > 0 %}
@@ -83,8 +117,6 @@ layout: default
               {% include resume/interests.html %}
             {% when "certificates" %}
               {% include resume/certificates.html %}
-            {% when "references" %}
-              {% include resume/references.html %}
             {% else %}
 
           {% endcase %}
