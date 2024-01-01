@@ -9,8 +9,8 @@ children:
       permalink: /papers/
     - title: divider
     - title: Patent
-      permalink: /researchers/
+      permalink: /patent/
     - title: divider
     - title: Awards
-      permalink: /researchers/
+      permalink: /awards/
 ---
