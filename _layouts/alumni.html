@@ -1,0 +1,714 @@
+---
+layout: default
+---
+
+
+<!-- _layouts/cv.html -->
+
+<style type="text/css">
+ 
+  #home-content{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
+
+{% unless site.data.resume %}
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% for entry in site.data.cv %}
+        <a class="anchor" id="{{ entry.title }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div>
+          {% if entry.type == "list" %}
+            {% include cv/list.html %}
+          {% elsif entry.type == "map" %}
+            {% include cv/map.html %}
+          {% elsif entry.type == "nested_list" %}
+            {% include cv/nested_list.html %}
+          {% elsif entry.type == "time_table" %}
+            {% include cv/time_table.html %}
+          {% elsif entry.type == "list_groups" %}
+            {% include cv/list_groups.html %}
+          {% else %}
+            {{ entry.contents }}
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+  </article>
+
+</div>
+{% else %}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+  </header>
+  <br>
+  <h3><span class="font-weight-bold">Course Students</span></h3>
+  <hr>
+  <article>
+    <div class="cv">
+        <a class="anchor" id="basics"></a>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/Myungjong.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Myoung Jong Kim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Startup</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2023. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">데이터 시각화 기반 네트워크 포렌식</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/jino.jpg" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Jino Lee</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">현대 모비스</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2023. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">Open Platform-Based File System Forensics</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/wooyeon.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">WooYeon Jo</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Virginia Commonwealth University Postdoc</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2022. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">Smart Digital Forensics: An Application of Supervised Learning to Industrial Network and System</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/hyunjin.jpg" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Hyunjin Kim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">정부출연연구소</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2022. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">A Comprehensive Network Anomaly Detection Framework based on Protocol Reverse Engineering for Industrial Control System</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/sungjin.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Sungjin Kim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Samsung SDS</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2022. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">Smart Digital Forensics: An Application of Supervised Learning to Industrial Network and System</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/hyungchan.jpg" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Hyungchan Kim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">(주)윈스</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2021. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">Digital Forensics based Privacy Data Protection</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/seongmoon.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Seongmoon Kwon</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">한국인터넷진흥원 (KISA)</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2020. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/JaeHan.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Jaehan Jeong</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">한국인터넷진흥원 (KISA)</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2018. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/seokcheol.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Leeseok Cheol</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">SK Hynix</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2018. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/keunho.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Keunho Park</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">KT</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2018. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/seokjun.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Seokjun Lee</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Kennesaw State University 교수</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2017. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/hyunguk.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Hyunguk Yoo</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">University of New Orleans 교수</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2017. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/soowoong.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Soowoong Eo</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Startup</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2016. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/hyunsoo.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Hyunsoo Chang</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">NAVER</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2016. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/jongwan.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Jongwan Kim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">현대 모비스</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2016. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/yongmin.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Yongmin Park</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Startup</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2016. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/teddy.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Tewodros Munea</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">정부기관</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2015. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/resized/hyunwoo.png" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Hyunwoo Lim</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Startup</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2015. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/alumni/jongbin.jpg" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Jongbin Ko</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Startup</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Ph.D, 2014. 02</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/alumni/Aman.JPG" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Amanuel Sekie</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">정부기관</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2013. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mt-3 p-3">
+            <div>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                                <figure>
+                                    <picture>
+                                      <img src="/assets/img/members/alumni/Sania.bmp" class="img-fluid rounded z-depth-1">
+                                    </picture>
+                                </figure>
+                            </div>
+                            <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                                <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                    <a href="https://example.com" rel="external nofollow noopener" target="_blank">Sania Yagoob</a></h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">사우디 텔레콤</h6>
+                                    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">Master, 2013. 08</h6>
+                                    <ul class="items">
+                                        <li>
+                                            <span class="item">-</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h3><span class="font-weight-bold">Intern</span></h3>
+    <hr>
+    <div class="card mt-3 p-3">
+        <div>
+            <ul class="card-text font-weight-light list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                            <figure>
+                                <picture>
+                                  <img src="/assets/img/members/alumni/dongkyoo.jpg" class="img-fluid rounded z-depth-1">
+                                </picture>
+                            </figure>
+                        </div>
+                        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                            <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                <a href="https://example.com" rel="external nofollow noopener" target="_blank">Dong-Kyoo Kim</a></h6>
+                                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Tenure: 1979. 11 ~ 2012. 02 (33 Years) at Ajou University</h6>
+                                <ul class="items">
+                                    <li>
+                                        <span class="item">Digital Forensics</span>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <h3><span class="font-weight-bold">Honorary Faculty</span></h3>
+    <hr>
+    <div class="card mt-3 p-3">
+        <div>
+            <ul class="card-text font-weight-light list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xs-2 cl-sm-2 col-md-2 text-center justify-content-center align-items-center" style="width: 75px;">
+                            <figure>
+                                <picture>
+                                  <img src="/assets/img/members/alumni/dongkyoo.jpg" class="img-fluid rounded z-depth-1">
+                                </picture>
+                            </figure>
+                        </div>
+                        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                            <h6 class="title font-weight-bold ml-1 ml-md-4">
+                                <a href="https://example.com" rel="external nofollow noopener" target="_blank">Dong-Kyoo Kim</a></h6>
+                                <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Tenure: 1979. 11 ~ 2012. 02 (33 Years) at Ajou University</h6>
+                                <ul class="items">
+                                    <li>
+                                        <span class="item">Digital Forensics</span>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+  </article>
+
+</div>
+{% endunless %}

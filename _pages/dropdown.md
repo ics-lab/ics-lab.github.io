@@ -10,4 +10,7 @@ children:
     - title: divider
     - title: Researchers
       permalink: /researchers/
+    - title: divider
+    - title: Alumni
+      permalink: /alumni/
 ---
