@@ -74,7 +74,7 @@ layout: default
           <h3><span class="font-weight-bold">News</span></h3>
           <hr>
           <ul class="post-list">
-            {% for post in site.posts[0..3] %}
+            {% for post in site.posts limit:3 %}
         
             {% if post.external_source == blank %}
               {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
