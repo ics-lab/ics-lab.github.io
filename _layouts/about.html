@@ -1,15 +1,5 @@
 ---
 layout: default
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
 ---
 
 <!-- about.html -->
@@ -84,7 +74,7 @@ pagination:
           <h3><span class="font-weight-bold">News</span></h3>
           <hr>
           <ul class="post-list">
-            {% for post in site.posts %}
+            {% for post in site.posts[0..3] %}
         
             {% if post.external_source == blank %}
               {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -150,7 +140,6 @@ pagination:
             </li>
             {% endfor %}
           </ul>
-          {% include pagination.html %}
           <br>
           <h3><span class="font-weight-bold">Joint Research Institutes</span></h3>
           <hr>
