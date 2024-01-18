@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<!-- _layouts/cv.html -->
+<!- <li>_layouts/cv.html -->
 
 <style type="text/css">
  
@@ -59,7 +59,7 @@ layout: default
     <div class="col-sm-8 mt-3 mt-md-0">
       <figure>
         <picture>
-          <img src="/assets/img/prof_shon.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image">
+          <a href="https://sites.google.com/a/ajou.ac.kr/tsshon/"><img src="/assets/img/prof_shon.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image"></a>
         </picture>
       </figure>
     </div>
@@ -69,63 +69,18 @@ layout: default
   <article>
     <h3><span class="font-weight-bold">Career</span></h3>
     <hr>
-     - 국가정보원 정보보안 실태 평가위원 
-     - 한국전력 정보보안 자문위원
-     - 디지털 포렌식 표준화 포럼 자문위원 
-     - 원전 사이버보안 워킹그룹 위원,CC인증위원회 위원
-     - 스마트그리드 핵심 보안기술 자문위원
-     - 한국정보보호학회 이사, 한국정보처리학회 이사, 한국디지털포렌식학회 이사
-     - Associate Editor (Seurity and Communication Networks, Wiley) 
-     - Associate Editor (J.of Parallel, Emergent and Distributed Systems,Taylor and Francis)
-     - DFRWS 
-  
-     2005-2011 삼성전자 통신연구소/DMC연구소 책임연구원
-     2004-2005  University of Minnesota Research Scholar
-    <div class="cv">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
-          {% continue %}
-        {% endif %}
-        <a class="anchor" id="{{ data[0] }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-          <div>
-          {% case data[0] %}
-            {% when "basics" %}
-              {% include resume/basics.html %}
-            {% when "education" %}
-              {% include resume/education.html %}
-            {% when "work" %}
-              {% include resume/work.html %}
-            {% when "volunteer" %}
-              {% include resume/volunteer.html %}
-            {% when "projects" %}
-              {% include resume/projects.html %}
-            {% when "awards" %}
-              {% include resume/awards.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
-            {% when "publications" %}
-              {% include resume/publications.html %}
-            {% when "languages" %}
-              {% include resume/languages.html %}
-            {% when "interests" %}
-              {% include resume/interests.html %}
-            {% when "certificates" %}
-              {% include resume/certificates.html %}
-            {% else %}
-
-          {% endcase %}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
+     <ul>
+      <li>국가정보원 정보보안 실태 평가위원</li>
+      <li>한국전력 정보보안 자문위원</li>
+      <li>디지털 포렌식 표준화 포럼 자문위원</li> 
+      <li>원전 사이버보안 워킹그룹 위원,CC인증위원회 위원</li>
+      <li>스마트그리드 핵심 보안기술 자문위원</li>
+      <li>한국정보보호학회 이사, 한국정보처리학회 이사, 한국디지털포렌식학회 이사</li>
+      <li>Associate Editor (Seurity and Communication Networks, Wiley)</li>
+      <li>Associate Editor (J.of Parallel, Emergent and Distributed Systems,Taylor and Francis)</li>
+      <li>2005-2011 삼성전자 통신연구소/DMC연구소 책임연구원</li>
+      <li>2004-2005  University of Minnesota Research Scholar</li>
+      </ul>
   </article>
-
 </div>
 {% endunless %}
