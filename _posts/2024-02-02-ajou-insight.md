@@ -22,3 +22,4 @@ thumbnail: assets/img/posts/2024-02-02-아주인사이트.png
 <hr>
 
 - [AJOUINSIGHT_2024 신년호](https://www.ajou.ac.kr/kr/ajou/webzine.do?mode=view&articleNo=245370&article.offset=0&articleLimit=8)
+
