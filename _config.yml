@@ -2,6 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+disable_disk_cache: false
+future: true
+
 title: ICS Lab # the website title (if blank, full name will be used instead)
 first_name: You
 middle_name: R.
@@ -201,7 +204,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ['_pages', '_posts']
 exclude:
   - bin
   - Gemfile
