@@ -2,7 +2,7 @@
 layout: post
 title: 메타버스와 산업제어시스템을 위한 디지털포렌식 기법 개발
 date: 2023-10-31 12:00:00
-description: 조우연 박사, 김동현 인턴, 오수빈 석사과정, 손태식 교수님
+description: 조우연 (박사), 김동현 (인턴), 오수빈 (석사과정), 손태식 교수님
 tags: DFRWS, 논문
 categories: 논문
 thumbnail: assets/img/posts/2023-10-15-DFRWS Accept.jpg
