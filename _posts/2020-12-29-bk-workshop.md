@@ -5,7 +5,7 @@ date: 2020-12-29 12:00:00
 tags: BK
 description: 손태식 교수님
 categories: 발표, 워크샵
-thumbnail: assets/img/news/BKworkshop.PN
+thumbnail: assets/img/news/BKworkshop.PNG
 ---
 
 <h2>제4회 4차산업혁명 선도 차세대컴퓨팅 기술 워크샵</h2>
