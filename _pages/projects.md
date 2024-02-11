@@ -21,19 +21,15 @@ horizontal: false
     <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
     <li>공동 연구 : 경찰청</li>
     <div class="research-img-field">
-        <img src="assets/img/research/iot_filesystem.png" class="img-responsive" id="research-img" alt="">
-        <p><주요 IoT 파일시스템 동작 체계 구성도></p>
+      <img src="../assets/img/research/iot_filesystem.png" class="img-responsive" id="research-img" alt="">
     </div>
-    
     <br>
     <li>메타버스 플랫폼 내 주요 데이터 접근 및 추출 방안 연구 수행</li>
     <li>HMD(Head Mounted Display) 하드웨어 대상 메타버스 플랫폼 데이터 획득 방안 도출</li>                
     <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
     <div class="research-img-field">
-        <img src="assets/img/research/meta.png" class="img-responsive" id="research-img" alt="">
-        <p><메타버스 디지털 포렌식 테스트베드 구성도></p>
+        <img src="../assets/img/research/meta.png" class="img-responsive" id="research-img" alt="">
     </div>
-
     <br>
     <li>이벤트 기반 실험시스템 구축을 통한 자동차 내·외부 아티팩트 수집 및 통합 분석 기술 개발</li>
     <li>V2N 동기화 데이터 및 IVI, EDR, DSSAD, 상용차 운행기록장치(DTG) 저장 데이터 수집·분석 기술 개발</li>
@@ -42,10 +38,8 @@ horizontal: false
     <li>IVI 포렌식 도구 및 EDR/DSSAD/운행기록장치 데이터 분석 기술 개발</li>
     <li>공동 연구 : IITP</li>
     <div class="research-img-field">
-        <img src="assets/img/research/iitp_vehicle.png" class="img-responsive" id="research-img" alt="">
-        <p><차량 내·외부 아티팩트 수집 및 통합 분석 흐름도></p>
+        <img src="../assets/img/research/iitp_vehicle.png" class="img-responsive" id="research-img" alt="">
     </div>
-
     <br>
     <li>스마트홈 시스템 모델링 및 획득 데이터 분류 연구</li>
     <li>스마트홈 구성 서비스 및 플랫폼 분류 도출</li>
@@ -53,20 +47,18 @@ horizontal: false
     <li>스마트홈 내 획득 데이터 분류 수행</li>
     <li>공동 연구 : 대검찰청</li>
     <div class="research-img-field">
-        <img src="assets/img/research/smarthome_model.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/smarthome_model.png" class="img-responsive" id="research-img" alt="">
         <p><스마트워치 공통 모델링></p>
     </div>
-
     <br>
     <li>스마트홈 IoT(월패드 및 주변기기) 분석 기법 연구</li>
     <li>월패드 중심 스마트홈 에코시스템 데이터 획득 방안 도출(삼성, 코콤, 코맥스의 12종 스마트홈 기기 대상)</li>
     <li>스마트홈 에코시스템 포렌식 데이터 분석 및 아티팩트 도출</li>
     <li>공동 연구 : 경찰청</li>
     <div class="research-img-field">
-        <img src="assets/img/research/wallpad.jpg" alt="">
+        <img src="../assets/img/research/wallpad.jpg" alt="">
         <p><월패드 중심 스마트홈 에코시스템 포렌식 분석 테스트베드></p>
     </div>
-
     <!-- 20210625 sb -->
     <br>
     <li>웨어러블 장치 대상 디지털 포렌식 연구</li>
@@ -74,7 +66,7 @@ horizontal: false
     <li>스마트워치‧밴드 장치 내부 데이터 분석 및 사용자 아티팩트 도출</li>
     <li>공동 연구 : 경찰청</li>
     <div class="research-img-field">
-        <img src="assets/img/research/wearable_test.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/wearable_test.png" class="img-responsive" id="research-img" alt="">
         <p><스마트워치 내부 접근을 위한 솔더링 수행 과정></p>
     </div>
     <!-- 200720 sb-->
@@ -83,17 +75,16 @@ horizontal: false
     <li>차량 인포테인먼트 시스템 포렌식 중요 아티팩트 분석 결과 검증용 도구 개발</li>
     <li>공동 연구 : 한국정보보호학회(국가기관)</li>
     <div class="research-img-field">
-        <img src="assets/img/research/IVI_forensics.jpg" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/IVI_forensics.jpg" class="img-responsive" id="research-img" alt="">
         <p><차량 인포테인먼트 시스템 포렌식 분석 테스트베드></p>
-    </div>
-
+    </div>  
     <br>
     <li>차량 이더넷 환경의 딥러닝 기반 비정상행위 탐지 기술 개발</li>
     <li>차량 이더넷 기반 화이트리스트 자동 생성 및 필터링 기술 연구 수행</li>
     <li>도메인별 특징을 활용한 딥러닝 기반 비정상행위 탐지 기술 연구 수행</li>
     <li>공동 연구 : 현대엔지비</li>
     <div class="research-img-field">
-        <img src="assets/img/research/HD_IDS.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/HD_IDS.png" class="img-responsive" id="research-img" alt="">
         <p><이더넷 기반 차량 네트워크 구성도></p>
     </div>                
 
@@ -103,7 +94,7 @@ horizontal: false
     <li>안드로이드 기반 스마트폰 중요정보 완전삭제 방안 연구 수행</li>
     <li>공동 연구 : 국가보안기술연구소</li>
     <div class="research-img-field">
-        <img src="assets/img/research/nsr_android.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/nsr_android.png" class="img-responsive" id="research-img" alt="">
         <p><안드로이드 기반 스마트폰 중요정보 완전삭제 방안></p>
     </div>
 
@@ -114,7 +105,7 @@ horizontal: false
     <li>DFRWS USA 2020에 논문 채택(Certificate Injection-based Encrypted Traffic Forensics in AI Speaker Ecosystem)</li>
     <li>공동 연구 : 한국정보보호학회(국가기관)</li>
     <div class="research-img-field">
-        <img src="assets/img/research/aispeaker_KIISC.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/aispeaker_KIISC.png" class="img-responsive" id="research-img" alt="">
         <p><취약점 기반 인증서 인젝션 및 웹프록시 구성></p>
     </div>
 
@@ -124,7 +115,7 @@ horizontal: false
     <li>Ext, XFS, HFS, YAFFS2 등의 다양한 파일 시스템 플랫폼의 복구 도구를 모듈화하여 하나의 프레임워크로 구축</li>
     <li>공동 연구 : IITP</li>
     <div class="research-img-field">
-        <img src="assets/img/research/iitp_forensics.png" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/iitp_forensics.png" class="img-responsive" id="research-img" alt="">
         <p><디지털 포렌식 통합 플랫폼 구조도></p>
     </div>
 
@@ -135,7 +126,7 @@ horizontal: false
     <li>DFRWS USA 2019에 논문 채택(Digital Forensic Practices and Methodologies for AI Speaker Ecosystems)</li>
     <li>공동 연구 : 대검찰청</li>
     <div class="research-img-field">
-        <img src="assets/img/research/aispeaker.jpg" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/aispeaker.jpg" class="img-responsive" id="research-img" alt="">
         <p><인공지능 스피커 TLS 트래픽 분석 테스트베드></p>
     </div>
 
@@ -145,7 +136,7 @@ horizontal: false
     <li>UFS1,2 File System 삭제된 파일 복원 도구 개발</li>
     <li>공동 연구 : 대검찰청, 한국연구재단</li>
     <div class="research-img-field">
-        <img src="assets/img/research/ext_tool_scs.jpg" class="img-responsive" id="research-img" alt="">
+        <img src="../assets/img/research/ext_tool_scs.jpg" class="img-responsive" id="research-img" alt="">
         <p><대검찰청 맞춤형 CLI환경기반 통합(EXT 2/3/4 Filesystem) 복구 도구></p>
     </div>
 
@@ -166,7 +157,7 @@ horizontal: false
           <li>현재 이더넷 기반 시스템의 통신품질 개선 및 예방보전을 위한 전용 진단 툴 개발중</li>
           <li>공동 연구 : 현대엔지비</li>
           <div class="research-img-field">
-              <img src="assets/img/research/HDngv_eth.png" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/HDngv_eth.png" class="img-responsive" id="research-img" alt="">
               <p><이더넷 기반 산업용 네트워크 구성도></p>
           </div>
       </ul>
@@ -180,7 +171,7 @@ horizontal: false
           <li>제어시스템 및 산업용이더넷을 대상으로 딥러닝 기반 탐지 엔진 개발 수행</li>
           <li>공동 연구 : IITP, NNSP, NSHC</li>
           <div class="research-img-field">
-              <img src="assets/img/research/iitp_smartfactory.jpg" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/iitp_smartfactory.jpg" class="img-responsive" id="research-img" alt="">
               <p><스마트공장 이상징후 탐지 엔진 테스트베드></p>
           </div>
       </ul>
@@ -194,7 +185,7 @@ horizontal: false
           <li>ISA 100.11a 테스트베드 구축 및 보안 기능 개발 수행</li>
           <li>공동 연구 : 한국전력</li>
           <div class="research-img-field">
-              <img src="assets/img/research/100.11a_testbed.png" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/100.11a_testbed.png" class="img-responsive" id="research-img" alt="">
               <p>< ISA 100.11a 기반 전력제어시스템 테스트베드></p>
           </div>
       </ul>
@@ -208,7 +199,7 @@ horizontal: false
           <li>EMS 연계구간 별 지능형 학습기반 탐지 도구 개발</li>
           <li>공동 연구 : 전력거래소</li>
           <div class="research-img-field">
-              <img src="assets/img/research/EMS_tool.png" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/EMS_tool.png" class="img-responsive" id="research-img" alt="">
               <p>< EMS 연계구간 별 지능형 학습기반 탐지 도구 대쉬보드></p>
           </div>
       </ul>
@@ -222,7 +213,7 @@ horizontal: false
           <li>IEC 61850 환경의 계층별 사이버 공격탐지 시제품 개발 수행</li>
           <li>공동 연구 : 한국에너지기술평가원</li>
           <div class="research-img-field">
-              <img src="assets/img/research/Testbed_img.png" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/Testbed_img.png" class="img-responsive" id="research-img" alt="">
               <p><전력 제어시스템 테스트베드></p>
           </div>
       </ul>
@@ -240,7 +231,7 @@ horizontal: false
           <li>현재 국가기록원 전자기록 오프라인 시험이관에 적용 중</li>
           <li>공동 연구 : 국가기록원</li>
           <div class="research-img-field">
-              <img src="assets/img/research/na-project-image.PNG" class="img-responsive" id="research-img" alt="">
+              <img src="../assets/img/research/na-project-image.PNG" class="img-responsive" id="research-img" alt="">
               <p><전자기록물 오프라인 이관 도구(국가기록원 실 사용중)></p>
           </div>
       </ul>
