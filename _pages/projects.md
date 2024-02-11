@@ -15,41 +15,60 @@ horizontal: false
   <br>
   <div>
     <ul>                
-    <li>사물인터넷(IoT)기기 파일시스템 분석기법 연구 수행</li>
-    <li>활용성 높은 IoT기기 파일시스템 4종 (JFFS2, UBIFS, cramfs, squashFS) 이상의 구조 분석</li> 
-    <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
-    <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
-    <li>공동 연구 : 경찰청</li>
-    <div class="research-img-field">
-      <img src="../assets/img/research/iot_filesystem.png" class="img-responsive" id="research-img" alt="">
-    </div>
+      <li>사물인터넷(IoT)기기 파일시스템 분석기법 연구 수행</li>
+      <li>활용성 높은 IoT기기 파일시스템 4종 (JFFS2, UBIFS, cramfs, squashFS) 이상의 구조 분석</li> 
+      <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
+      <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
+      <li>공동 연구 : 경찰청</li>
+      <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/research/iot_filesystem.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+      </div>
+      <div class="caption">
+        주요 IoT 파일시스템 개요 및 구조도
+      </div>
     <br>
-    <li>메타버스 플랫폼 내 주요 데이터 접근 및 추출 방안 연구 수행</li>
-    <li>HMD(Head Mounted Display) 하드웨어 대상 메타버스 플랫폼 데이터 획득 방안 도출</li>                
-    <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
-    <div class="research-img-field">
-        <img src="../assets/img/research/meta.png" class="img-responsive" id="research-img" alt="">
-    </div>
+      <li>메타버스 플랫폼 내 주요 데이터 접근 및 추출 방안 연구 수행</li>
+      <li>HMD(Head Mounted Display) 하드웨어 대상 메타버스 플랫폼 데이터 획득 방안 도출</li>                
+      <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
+      <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+      </div>
+      <div class="caption">
+        메타버스 에코시스템 개요도
+      </div>
     <br>
-    <li>이벤트 기반 실험시스템 구축을 통한 자동차 내·외부 아티팩트 수집 및 통합 분석 기술 개발</li>
-    <li>V2N 동기화 데이터 및 IVI, EDR, DSSAD, 상용차 운행기록장치(DTG) 저장 데이터 수집·분석 기술 개발</li>
-    <li>V2N(Vehicle to Nomadic Device) 시스템 생성 데이터 수집 기술 및 타임라인 기반 포렌식 아티팩트 분석기술 개발</li>
-    <li>IVI, EDR, DSSAD, DTG 생성 빅데이터 수집 및 분석 기술 연구</li>
-    <li>IVI 포렌식 도구 및 EDR/DSSAD/운행기록장치 데이터 분석 기술 개발</li>
-    <li>공동 연구 : IITP</li>
-    <div class="research-img-field">
-        <img src="../assets/img/research/iitp_vehicle.png" class="img-responsive" id="research-img" alt="">
-    </div>
+      <li>이벤트 기반 실험시스템 구축을 통한 자동차 내·외부 아티팩트 수집 및 통합 분석 기술 개발</li>
+      <li>V2N 동기화 데이터 및 IVI, EDR, DSSAD, 상용차 운행기록장치(DTG) 저장 데이터 수집·분석 기술 개발</li>
+      <li>V2N(Vehicle to Nomadic Device) 시스템 생성 데이터 수집 기술 및 타임라인 기반 포렌식 아티팩트 분석기술 개발</li>
+      <li>IVI, EDR, DSSAD, DTG 생성 빅데이터 수집 및 분석 기술 연구</li>
+      <li>IVI 포렌식 도구 및 EDR/DSSAD/운행기록장치 데이터 분석 기술 개발</li>
+      <li>공동 연구 : IITP</li>
+      <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/research/iitp_vehicle.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+      </div>
+      <div class="caption">
+        차량 대상 디지털 포렌식 개요도
+      </div>
     <br>
-    <li>스마트홈 시스템 모델링 및 획득 데이터 분류 연구</li>
-    <li>스마트홈 구성 서비스 및 플랫폼 분류 도출</li>
-    <li>스마트홈 공통 모델링 도출 및 모델링 기반 스마트홈 구성 도출</li>
-    <li>스마트홈 내 획득 데이터 분류 수행</li>
-    <li>공동 연구 : 대검찰청</li>
-    <div class="research-img-field">
-        <img src="../assets/img/research/smarthome_model.png" class="img-responsive" id="research-img" alt="">
-        <p><스마트워치 공통 모델링></p>
-    </div>
+      <li>스마트홈 시스템 모델링 및 획득 데이터 분류 연구</li>
+      <li>스마트홈 구성 서비스 및 플랫폼 분류 도출</li>
+      <li>스마트홈 공통 모델링 도출 및 모델링 기반 스마트홈 구성 도출</li>
+      <li>스마트홈 내 획득 데이터 분류 수행</li>
+      <li>공동 연구 : 대검찰청</li>
+      <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+          {% include figure.html path="assets/img/research/smarthome_model.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+      </div>
+      <div class="caption">
+        스마트워치 공통 모델링
+      </div>
     <br>
     <li>스마트홈 IoT(월패드 및 주변기기) 분석 기법 연구</li>
     <li>월패드 중심 스마트홈 에코시스템 데이터 획득 방안 도출(삼성, 코콤, 코맥스의 12종 스마트홈 기기 대상)</li>
