@@ -20,9 +20,10 @@ horizontal: false
       <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
       <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
       <li>공동 연구 : 경찰청</li>
+      <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/research/iot_filesystem.png" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.html path="assets/img/research/iot_filesystem.png" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
@@ -32,9 +33,10 @@ horizontal: false
       <li>메타버스 플랫폼 내 주요 데이터 접근 및 추출 방안 연구 수행</li>
       <li>HMD(Head Mounted Display) 하드웨어 대상 메타버스 플랫폼 데이터 획득 방안 도출</li>                
       <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
+      <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded " %}
         </div>
       </div>
       <div class="caption">
@@ -47,9 +49,10 @@ horizontal: false
       <li>IVI, EDR, DSSAD, DTG 생성 빅데이터 수집 및 분석 기술 연구</li>
       <li>IVI 포렌식 도구 및 EDR/DSSAD/운행기록장치 데이터 분석 기술 개발</li>
       <li>공동 연구 : IITP</li>
+      <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/research/iitp_vehicle.png" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.html path="assets/img/research/iitp_vehicle.png" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
@@ -61,9 +64,10 @@ horizontal: false
       <li>스마트홈 공통 모델링 도출 및 모델링 기반 스마트홈 구성 도출</li>
       <li>스마트홈 내 획득 데이터 분류 수행</li>
       <li>공동 연구 : 대검찰청</li>
+      <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/research/smarthome_model.png" title="example image" class="img-fluid rounded z-depth-1" %}
+          {% include figure.html path="assets/img/research/smarthome_model.png" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
