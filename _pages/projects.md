@@ -81,7 +81,7 @@ horizontal: false
       <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/img/research/wallpad.jpg" title="example image" class="img-fluid rounded" %}
+          {% include figure.html path="assets/img/research/wallpad.jpg" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
@@ -150,7 +150,7 @@ horizontal: false
       <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="assets/img/research/aispeaker_KIISC.png" title="example image" class="img-fluid rounded" %}
+          {% include figure.html path="assets/img/research/aispeaker_KIISC.PNG" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
@@ -164,7 +164,7 @@ horizontal: false
       <br>
       <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-          {% include figure.html path="aassets/img/research/iitp_forensics.png" title="example image" class="img-fluid rounded" %}
+          {% include figure.html path="assets/img/research/iitp_forensics.png" title="example image" class="img-fluid rounded" %}
         </div>
       </div>
       <div class="caption">
@@ -195,7 +195,6 @@ horizontal: false
       </div>
     </ul>
   </div>
-</div>
 <div class="sub-title", style="white-space: nowrap">
   <h3>Industrial Control System/Smart Manufacturing Security</h3>
 </div>
@@ -287,21 +286,17 @@ horizontal: false
     </ul>
 </div>
 
-
 <div class="sub-title">
     <h3> Current Research Projects </h3>
 </div>
 <br>
 <div>
     <ul>
-        <!-- 190724 syh Update -->
-        <li>Digital Forensic Analysis on AI Speaker, NIS, 03.2019 ~ 11.2019</li>
-        <li>A Study on advanced anomaly detection algorithm and implement an intrusion detection system for the electric power grid, 07.2018 ~ 06.2020</li>
-        <li>Developement of Digital Forensic Integration Platform, IITP, 05.2018 ~ 01.2021</li>
-        <li>Advanced Manufacturing Process Anomaly Detection to prevent the Smart Factory Operation Failure by Cyber Attacks, IITP, 04.2018 ~ 12.2020</li>
+      <li>Digital Forensic Analysis on AI Speaker, NIS, 03.2019 ~ 11.2019</li>
+      <li>A Study on advanced anomaly detection algorithm and implement an intrusion detection system for the electric power grid, 07.2018 ~ 06.2020</li>
+      <li>Developement of Digital Forensic Integration Platform, IITP, 05.2018 ~ 01.2021</li>
+      <li>Advanced Manufacturing Process Anomaly Detection to prevent the Smart Factory Operation Failure by Cyber Attacks, IITP, 04.2018 ~ 12.2020</li>
     </ul>
-
-
 </div>
 
 <div class="sub-title">
