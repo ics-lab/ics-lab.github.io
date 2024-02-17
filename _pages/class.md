@@ -34,3 +34,69 @@ In this course, each student conducts graduate-level research while being superv
 ### (F042) Security Career Search
 <hr>
 In this course, deals with information security career design and career path. It is intended to provide guidelines for preparing for the selection, comparison, and activities of the subject you need in earnest. To this end, special lectures on career guidance are conducted in cooperation with the University Job Center, and at the same time, special lectures are conducted by recruiting department professors and external experts in consideration of the characteristics of the department. Finally, it invites graduates to share their career exploration and design experiences in university.
+
+### Advanced Information Security
+<hr>
+In this course deals with fundamental security concepts, techniques and services. Thus this course will provide a comprehensive introduction and study into a broad selection of contemporary information security issues, concepts and policies. Through out this Lab, students will covers basic lectures on Linux Security, Web Security, Network Security and Digital Forensics
+
+<br>
+
+Lab 1 : Linux Basics(Ubuntu)
+- Installation Of Linux (Ubuntu) on VMware
+- Introduction to Linux
+- Basic Linux Commands
+
+Lab 2 : OWASP Vulnerabilities with WebGoat
+- What is OWASP and Top ten Vulnerabilities
+- OWASP Top Ten Vulnerabilities Test Bed : WebGoat
+- Installation of WebGoat
+- How to use WebGoat
+- Hands on Practice - Buffer Overflow
+
+Lab 3 : Linux Kernel Module & LSM  (Under Construction)
+- What is Linux Kernel Module
+- How to Compile Linux Kernel
+- Introduction to LSM
+
+Lab 4 : Network Packet Capture : Wireshark
+- Introduction to Wireshark
+- How to Capture Packets
+- Introducing Filtering Feature
+- How to use Statistics Feature of Wireshark
+
+
+Lab 5 : OS Fingerprinting
+- What is Operating System Fingerprinting
+- OS Fingerprinting Techniques
+- How to use p0f (OS Fingerprinting Tool)
+
+Lab 6 : Intrusion Detection System
+- What is Intrusion Detection System(IDS)
+- Introducing Intrusion Detecting Techniques
+- How to use Snort (IDS Tool)
+
+Lab 7 : DataMining Tool : WEKA
+- What is WEKA
+- How to use Datamining Techniques
+- How to use WEKA for each Techniques
+
+Lab 8 : Memory Forensics
+- Introduction to Memory Forensics
+- Memory Forensic Process
+- Capture and Analyze Memory Dump
+
+Lab 9 : Forensic Framework : Encase  
+- What is Encase
+- How to use Encase
+- Hands on Practice
+
+Lab 10 : Steganography
+- What is Steganography
+- How to Conceal Data
+- How to Use Steganography Tool
+- Case Study
+- Problem from Cryptography Contest(Stegano Problem)
+
+Lab 11 : Web Browser Forensics
+- What is Web Browser Forensics
+- Web Forensic Tool Experiment
