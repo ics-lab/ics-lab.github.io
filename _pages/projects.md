@@ -12,7 +12,7 @@ horizontal: false
 <div class="sub-title">
   <h3> Digital Forensics </h3>
 </div>
-<br>
+<hr>
 <div>
   <ul>                
     <li>사물인터넷(IoT)기기 파일시스템 분석기법 연구 수행</li>
@@ -20,9 +20,9 @@ horizontal: false
     <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
     <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
     <li>공동 연구 : 경찰청</li>
-    <hr>
+    <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iot_filesystem.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -35,12 +35,8 @@ horizontal: false
     <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
-        <figure>
-          <picture>
-            <img src="/assets/img/research/meta.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image">
-          </picture>
-        </figure>
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded " %}
       </div>
     </div>
     <div class="caption">
@@ -55,7 +51,7 @@ horizontal: false
     <li>공동 연구 : IITP</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iitp_vehicle.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -70,21 +66,21 @@ horizontal: false
     <li>공동 연구 : 대검찰청</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/smarthome_model.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
       스마트홈 공통 모델링
     </div>
-  <br>
+    <hr>
     <li>스마트홈 IoT(월패드 및 주변기기) 분석 기법 연구</li>
     <li>월패드 중심 스마트홈 에코시스템 데이터 획득 방안 도출(삼성, 코콤, 코맥스의 12종 스마트홈 기기 대상)</li>
     <li>스마트홈 에코시스템 포렌식 데이터 분석 및 아티팩트 도출</li>
     <li>공동 연구 : 경찰청</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/wallpad.jpg" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -98,7 +94,7 @@ horizontal: false
     <li>공동 연구 : 경찰청</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/wearable_test.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -111,7 +107,7 @@ horizontal: false
     <li>공동 연구 : 한국정보보호학회(국가기관)</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/IVI_forensics.jpg" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -125,7 +121,7 @@ horizontal: false
     <li>공동 연구 : 현대엔지비</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/HD_IDS.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -138,7 +134,7 @@ horizontal: false
     <li>안드로이드 기반 스마트폰 중요정보 완전삭제 방안 연구 수행</li>
     <li>공동 연구 : 국가보안기술연구소</li>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/nsr_android.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -167,59 +163,59 @@ horizontal: false
     <li>공동 연구 : IITP</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
-        <figure>
-          <picture>
-            <img src="/assets/img/research/iitp_forensics.png" class="img-fluid rounded" width="auto" height="auto" title="example image">
-          </picture>
-        </figure>
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/iitp_forensics.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
       디지털 포렌식 통합 플랫폼 구조도
     </div>
-  <br>
+    <hr>
     <li>AI Speaker 대상 디지털 포렌식 연구(NAVER, KAKAO, KT, SKT 4개 기종 AI Speaker 대상)</li>
     <li>네이버 Clova 클라우드에 저장된 명령어 히스토리 추출 도구 개발</li>
     <li>DFRWS USA 2019에 논문 채택(Digital Forensic Practices and Methodologies for AI Speaker Ecosystems)</li>
     <li>공동 연구 : 대검찰청</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/aispeaker.jpg" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
       인공지능 스피커 TLS 트래픽 분석 테스트베드
     </div>
-  <br>
+    <hr>
     <li>Linux File System 삭제된 파일 복원 도구 개발(Ext2/3/4 지원)</li>
     <li>XFS File System 삭제된 파일 복원 도구 개발</li>
     <li>UFS1,2 File System 삭제된 파일 복원 도구 개발</li>
     <li>공동 연구 : 대검찰청, 한국연구재단</li>
+    <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/ext_tool_scs.jpg" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
       대검찰청 맞춤형 CLI환경기반 통합(EXT 2/3/4 Filesystem) 복구 도구
     </div>
-    <br>
+    <hr>
     <li>국가기록원 오프라인 이관 도구 개발</li>
     <li>디지털 포렌식 기반의 전자기록물 이관 기술 접목</li>
     <li>현재 국가기록원 전자기록 오프라인 시험이관에 적용 중</li>
     <li>공동 연구 : 국가기록원</li>
-    <div class="research-img-field">
-        <img src="../assets/img/research/na-project-image.PNG" class="img-responsive" id="research-img" alt="">
-        <p><전자기록물 오프라인 이관 도구(국가기록원 실 사용중)></p>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/na-project-image.PNG" title="example image" class="img-fluid rounded" %}
+      </div>
     </div>
   </ul>
 </div>
+<br>
 <div class="sub-title", style="white-space: nowrap">
   <h3>Industrial Control System/Smart Manufacturing Security</h3>
 </div>
-<br>
+<hr>
 <div>
   <ul>
     <li>이더넷 기반 통신 정량적 진단 방안 및 툴 개발</li>
@@ -237,7 +233,7 @@ horizontal: false
     </div>
   </ul>
 </div>
-<br>
+<hr>
 <div>
   <ul>
     <li>IITP 스마트공장</li>
@@ -248,13 +244,13 @@ horizontal: false
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iitp_smartfactory.jpg" title="example image" class="img-fluid rounded" %}
       </div>
-      <div class="caption">
-        스마트공장 이상징후 탐지 엔진 테스트베드
-      </div>
+    </div>
+    <div class="caption">
+      스마트공장 이상징후 탐지 엔진 테스트베드
     </div>
   </ul>
 </div>
-<br>
+<hr>
 <div>
   <ul>
     <li>ISA 100.11a 기반 전력제어시스템 무선 보안 기술 개발</li>
@@ -265,13 +261,13 @@ horizontal: false
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/100.11a_testbed.png" title="example image" class="img-fluid rounded" %}
       </div>
-      <div class="caption">
-        ISA 100.11a 기반 전력제어시스템 테스트베드
-      </div>
+    </div>
+    <div class="caption">
+      ISA 100.11a 기반 전력제어시스템 테스트베드
     </div>
   </ul>
 </div> 
-<br>
+<hr>
 <div>
   <ul>
     <li>전력 기반시설 비정상행위 탐지알고리즘 고도화 및 탐지장비 개발 연구</li>
@@ -283,34 +279,33 @@ horizontal: false
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/EMS_tool.png" title="example image" class="img-fluid rounded" %}
       </div>
-      <div class="caption">
-        EMS 연계구간 별 지능형 학습기반 탐지 도구 대쉬보드
-      </div>
+    </div>
+    <div class="caption">
+      EMS 연계구간 별 지능형 학습기반 탐지 도구 대쉬보드
     </div>
   </ul>
 </div> 
-<br>
+<hr>
 <div>
   <ul>
     <li>IEC 61850 전력제어시스템의 APT 사이버공격 대응 기술 개발</li>
     <li>IEC 61850 기반 사이버 공격 대응 통합 관리 및 인증 시제품 개발 수행</li>
     <li>IEC 61850 환경의 계층별 사이버 공격탐지 시제품 개발 수행</li>
     <li>공동 연구 : 한국에너지기술평가원</li>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/Testbed_img.png" title="example image" class="img-fluid rounded" %}
       </div>
-      <div class="caption">
-        전력 제어시스템 테스트베드
-      </div>
     </div>
+    <div class="caption">전력 제어시스템 테스트베드</div>
   </ul>
 </div>
 
 <div class="sub-title">
     <h3> Current Research Projects </h3>
 </div>
-<br>
+<hr>
 <div>
     <ul>
       <li>Digital Forensic Analysis on AI Speaker, NIS, 03.2019 ~ 11.2019</li>
@@ -319,11 +314,11 @@ horizontal: false
       <li>Advanced Manufacturing Process Anomaly Detection to prevent the Smart Factory Operation Failure by Cyber Attacks, IITP, 04.2018 ~ 12.2020</li>
     </ul>
 </div>
-
+<br>
 <div class="sub-title">
     <h3> Previous Research Projects </h3>
 </div>
-<br>
+<hr>
 <div>
     <ul>
         <!-- 161114 wyjo Update -->
