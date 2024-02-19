@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Class
 permalink: /class/
 description: Teaching and Guiding through lectures.
