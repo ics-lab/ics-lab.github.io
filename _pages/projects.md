@@ -20,7 +20,7 @@ horizontal: false
     <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
     <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
     <li>공동 연구 : 경찰청</li>
-    <br>
+    <hr>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iot_filesystem.png" title="example image" class="img-fluid rounded" %}
@@ -29,20 +29,24 @@ horizontal: false
     <div class="caption">
       주요 IoT 파일시스템 개요 및 구조도
     </div>
-  <br>
+    <hr>
     <li>메타버스 플랫폼 내 주요 데이터 접근 및 추출 방안 연구 수행</li>
     <li>HMD(Head Mounted Display) 하드웨어 대상 메타버스 플랫폼 데이터 획득 방안 도출</li>                
     <li>메타버스 플랫폼 내 주요 데이터 추출 및 분석 자동화 도구 개발</li>
     <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded " %}
+        <figure>
+          <picture>
+            <img src="/assets/img/research/meta.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image">
+          </picture>
+        </figure>
       </div>
     </div>
     <div class="caption">
       메타버스 에코시스템 개요도
     </div>
-  <br>
+    <hr>
     <li>이벤트 기반 실험시스템 구축을 통한 자동차 내·외부 아티팩트 수집 및 통합 분석 기술 개발</li>
     <li>V2N 동기화 데이터 및 IVI, EDR, DSSAD, 상용차 운행기록장치(DTG) 저장 데이터 수집·분석 기술 개발</li>
     <li>V2N(Vehicle to Nomadic Device) 시스템 생성 데이터 수집 기술 및 타임라인 기반 포렌식 아티팩트 분석기술 개발</li>
@@ -58,7 +62,7 @@ horizontal: false
     <div class="caption">
       차량 대상 디지털 포렌식 개요도
     </div>
-  <br>
+    <hr>
     <li>스마트홈 시스템 모델링 및 획득 데이터 분류 연구</li>
     <li>스마트홈 구성 서비스 및 플랫폼 분류 도출</li>
     <li>스마트홈 공통 모델링 도출 및 모델링 기반 스마트홈 구성 도출</li>
@@ -156,7 +160,7 @@ horizontal: false
     <div class="caption">
       취약점 기반 인증서 인젝션 및 웹프록시 구성
     </div>
-  <br>
+    <hr>
     <li>IITP 디지털 포렌식 통합 플랫폼 개발</li>
     <li>디지털 포렌식을 위한 데이터 규격 표준화 및 자율-확장형 통합 프레임워크</li>
     <li>Ext, XFS, HFS, YAFFS2 등의 다양한 파일 시스템 플랫폼의 복구 도구를 모듈화하여 하나의 프레임워크로 구축</li>
@@ -164,7 +168,11 @@ horizontal: false
     <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/iitp_forensics.png" title="example image" class="img-fluid rounded" %}
+        <figure>
+          <picture>
+            <img src="/assets/img/research/iitp_forensics.png" class="img-fluid rounded" width="auto" height="auto" title="example image">
+          </picture>
+        </figure>
       </div>
     </div>
     <div class="caption">
