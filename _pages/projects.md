@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Digital Forensics / Industrial Control System & Smart Manufacturing Security
 nav: true
 nav_order: 2
 display_categories: [work, fun]
@@ -244,7 +244,7 @@ horizontal: false
     <li>공동 연구 : IITP, NNSP, NSHC</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iitp_smartfactory.jpg" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -281,7 +281,7 @@ horizontal: false
     <li>공동 연구 : 전력거래소</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/EMS_tool.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -299,7 +299,7 @@ horizontal: false
     <li>공동 연구 : 한국에너지기술평가원</li>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/Testbed_img.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
