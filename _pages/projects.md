@@ -36,7 +36,7 @@ horizontal: false
     <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/meta.jpg" title="example image" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/research/meta.JPG" title="example image" class="img-fluid rounded " %}
       </div>
     </div>
     <div class="caption">
