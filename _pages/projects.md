@@ -36,7 +36,7 @@ horizontal: false
     <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/meta.png" title="example image" class="img-fluid rounded " %}
+        {% include figure.html path="assets/img/research/meta.jpg" title="example image" class="img-fluid rounded " %}
       </div>
     </div>
     <div class="caption">
@@ -87,7 +87,7 @@ horizontal: false
     <div class="caption">
       월패드 중심 스마트홈 에코시스템 포렌식 분석 테스트베드
     </div>
-  <br>
+    <hr>
     <li>웨어러블 장치 대상 디지털 포렌식 연구</li>
     <li>최신 스마트워치‧밴드 장치 내부 데이터 획득 방안 도출(삼성, 애플, 샤오미 등 7개 제조사의 17종 최신 기기 대상)</li>
     <li>스마트워치‧밴드 장치 내부 데이터 분석 및 사용자 아티팩트 도출</li>
@@ -101,7 +101,7 @@ horizontal: false
     <div class="caption">
       스마트워치 내부 접근을 위한 솔더링 수행 과정
     </div>
-  <br>
+    <hr>
     <li>차량 인포테인먼트 시스템 포렌식 및 아티팩트 도출 방안 연구</li>
     <li>차량 인포테인먼트 시스템 포렌식 중요 아티팩트 분석 결과 검증용 도구 개발</li>
     <li>공동 연구 : 한국정보보호학회(국가기관)</li>
@@ -114,7 +114,7 @@ horizontal: false
     <div class="caption">
       차량 인포테인먼트 시스템 포렌식 분석 테스트베드
     </div>
-  <br>
+    <hr>
     <li>차량 이더넷 환경의 딥러닝 기반 비정상행위 탐지 기술 개발</li>
     <li>차량 이더넷 기반 화이트리스트 자동 생성 및 필터링 기술 연구 수행</li>
     <li>도메인별 특징을 활용한 딥러닝 기반 비정상행위 탐지 기술 연구 수행</li>
@@ -128,11 +128,12 @@ horizontal: false
     <div class="caption">
       이더넷 기반 차량 네트워크 구성도
     </div>            
-  <br>
+    <hr>
     <li>안드로이드 OS(9.10)에서 데이터 삭제 시 완전삭제 방안 연구</li>
     <li>안드로이드 기반 스마트폰 주요정보 삭제 시 복구 가능성 연구 수행</li>
     <li>안드로이드 기반 스마트폰 중요정보 완전삭제 방안 연구 수행</li>
     <li>공동 연구 : 국가보안기술연구소</li>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/nsr_android.png" title="example image" class="img-fluid rounded" %}
@@ -141,7 +142,7 @@ horizontal: false
     <div class="caption">
       안드로이드 기반 스마트폰 중요정보 완전삭제 방안
     </div>            
-    <br>
+    <hr>
     <li>AI 스피커 포렌식 분석 연구</li>
     <li>인증서 인젝션 기반 AI 스피커 웹 프록시 설정 방안 연구</li>
     <li>웹프록시 기반 TLS 트래픽 아티팩트 수집 및 분석 방안 도출</li>
@@ -212,7 +213,7 @@ horizontal: false
   </ul>
 </div>
 <br>
-<div class="sub-title", style="white-space: nowrap">
+<div class="sub-title">
   <h3>Industrial Control System/Smart Manufacturing Security</h3>
 </div>
 <hr>
@@ -223,13 +224,14 @@ horizontal: false
     <li>이더넷 기반 통신 진단과 시각화를 위한 H/KMC 표준안 연구</li>
     <li>현재 이더넷 기반 시스템의 통신품질 개선 및 예방보전을 위한 전용 진단 툴 개발중</li>
     <li>공동 연구 : 현대엔지비</li>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/HDngv_eth.png" title="example image" class="img-fluid rounded" %}
       </div>
-      <div class="caption">
-        이더넷 기반 산업용 네트워크 구성도
-      </div>
+    </div>
+    <div class="caption">
+      이더넷 기반 산업용 네트워크 구성도
     </div>
   </ul>
 </div>
@@ -240,6 +242,7 @@ horizontal: false
     <li>스마트공장 이상징후 탐지 엔진 개발</li>
     <li>제어시스템 및 산업용이더넷을 대상으로 딥러닝 기반 탐지 엔진 개발 수행</li>
     <li>공동 연구 : IITP, NNSP, NSHC</li>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/iitp_smartfactory.jpg" title="example image" class="img-fluid rounded" %}
@@ -257,8 +260,9 @@ horizontal: false
     <li>ISA 100.11a 보안 기능 분석</li>
     <li>ISA 100.11a 테스트베드 구축 및 보안 기능 개발 수행</li>
     <li>공동 연구 : 한국전력</li>
+    <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm mt-3 mt-md-0">
+      <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/100.11a_testbed.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
@@ -275,6 +279,7 @@ horizontal: false
     <li>지능형 학습 기반 알고리즘 적용을 통한 Baseline 알고리즘의 고도화 연구 수행</li>
     <li>EMS 연계구간 별 지능형 학습기반 탐지 도구 개발</li>
     <li>공동 연구 : 전력거래소</li>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/EMS_tool.png" title="example image" class="img-fluid rounded" %}
