@@ -9,7 +9,7 @@ images:
 description: Our members and memories
 ---
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay="true">
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
 {% for image in site.static_files %}
     {% if image.path contains 'img/group' %}
         {% if image.extname == '.PNG' %}
@@ -19,3 +19,5 @@ description: Our members and memories
 {% endfor %}
 </swiper-container>
 <hr>
+
+{% include gallery.html folder="/assets/gallery" %}
