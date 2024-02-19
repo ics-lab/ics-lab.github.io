@@ -8,7 +8,7 @@ images:
     slider: true
 description: Our members and memories
 ---
-
+<div class="justify-content-center align-items-center">
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
 {% for image in site.static_files %}
     {% if image.path contains 'img/group' %}
@@ -21,3 +21,4 @@ description: Our members and memories
 <hr>
 
 {% include gallery.html folder="/assets/gallery" %}
+</div>
