@@ -6,7 +6,6 @@ description: publications by categories in reversed chronological order. generat
 ---
 
 <div class="card mt-3 p-3">
-    <div>
         <ul class="card-text font-weight-light list-group list-group-flush">
          <li class="list-group-item">
                 <div class="row">
@@ -308,5 +307,4 @@ description: publications by categories in reversed chronological order. generat
             </li>
         </ul>
     </div>
-</div>
 
