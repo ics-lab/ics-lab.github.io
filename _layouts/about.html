@@ -20,11 +20,17 @@ layout: default
         <hr>
         <div class="row">
           <div class="col-sm mt-3 mt-md-0">
-            <figure>
-              <picture>
-                <img src="/assets/img/logo/MF_Blog_ParsingCarving_0622_Header.webp" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-              </picture>
-            </figure>
+            <div class="justify-content-center align-items-center">
+              <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/main' %}
+                        {% if image.extname == '.png' %}
+                            <swiper-slide>{% include figure.html loading="eager" path=image.path class="img-fluid rounded z-depth-1" %}</swiper-slide>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                </swiper-container>
+            </div>
           </div>
         </div>
 
