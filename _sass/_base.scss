@@ -1040,3 +1040,11 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+.swiper .swiper-pagination {
+  position: absolute;
+  bottom: 65px !important;
+}
+.swiper .swiper-pagination-bullet {
+  margin: 0 10px !important;
+}
