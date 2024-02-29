@@ -19,7 +19,7 @@ layout: default
         </header>
         <hr>
         <div class="justify-content-center align-items-center">
-          <swiper-container keyboard="true" navigation="true" rewind="true" autoplay="true">
+          <swiper-container keyboard="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
             {% for image in site.static_files %}
                 {% if image.path contains 'img/main' %}
                     {% if image.extname == '.png' %}
