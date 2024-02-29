@@ -1,8 +1,10 @@
 <p align='center'><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo.svg/2057px-Safari_browser_logo.svg.png height="128"></p>
 <h1 align="center">ICS Lab Web</a></h1>
 <p align="center">
-  <em>Introdcution web page/em>
+  <em>Introdcution web page</em>
 </p>
+
+<img width="1535" alt="image" src="https://github.com/ics-lab/ics-lab.github.io/assets/16293464/674ebf69-6da9-4f5d-8202-680cb85eb85c">
 
 ## Introduction
 
