@@ -1,5 +1,7 @@
 ---
 layout: default
+images:
+  slider: true
 ---
 
 <!-- about.html -->
@@ -18,22 +20,17 @@ layout: default
           </h1>
         </header>
         <hr>
-        <div class="row">
-          <div class="col-sm mt-3 mt-md-0">
-            <div class="justify-content-center align-items-center">
-              <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
-                {% for image in site.static_files %}
-                    {% if image.path contains 'img/main' %}
-                        {% if image.extname == '.png' %}
-                            <swiper-slide>{% include figure.html loading="eager" path=image.path class="img-fluid rounded z-depth-1" %}</swiper-slide>
-                        {% endif %}
+        <div class="justify-content-center align-items-center">
+          <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true" autoplay="true">
+            {% for image in site.static_files %}
+                {% if image.path contains 'img/main' %}
+                    {% if image.extname == '.png' %}
+                        <swiper-slide>{% include figure.html loading="eager" path=image.path class="img-fluid rounded z-depth-1" %}</swiper-slide>
                     {% endif %}
-                {% endfor %}
-                </swiper-container>
-            </div>
-          </div>
+                {% endif %}
+            {% endfor %}
+            </swiper-container>
         </div>
-
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
