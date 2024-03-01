@@ -204,7 +204,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages', '_posts']
+include: ['_pages', '_posts', 'assets', '_layouts', '_sass', '_includes']
 exclude:
   - bin
   - Gemfile
