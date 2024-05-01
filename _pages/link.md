@@ -10,7 +10,6 @@ nav_order: 5
 <div class="sub-title">
     <h3>Digital Library</h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://dl.acm.org/" class="external text" rel="nofollow" target="_blank">ACM</a></li>
@@ -27,7 +26,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Journal </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.ieee-ies.org/pubs/transactions-on-industrial-informatics" class="external text" rel="nofollow" target="_blank">IEEE Transactions on Industrial Informatics (1.02% by JCR 2020)</a></li>
@@ -47,7 +45,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Special Issues </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.ieee-ies.org/pubs/transactions-on-industrial-informatics" class="external text" rel="nofollow" target="_blank">IEEE Transactions on Industrial Informatics (1.02% by JCR 2020)</a></li>
@@ -64,7 +61,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Conference - Smartgrid&Security </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.blackhat.com" class="external text" rel="nofollow" target="_blank">Blackhat</a></li>
@@ -83,7 +79,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Conference - Digital Forensics </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.dodcybercrime.com" class="external text" rel="nofollow" target="_blank">Dod Crime Conference</a></li>
@@ -99,7 +94,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Institute&Corporation </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.nis.go.kr" class="external text" rel="nofollow" target="_blank">국가정보원(NIS)</a></li>
@@ -126,7 +120,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Society </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.iacr.org" class="external text" rel="nofollow" target="_blank">IACR</a></li>
@@ -146,7 +139,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> Electric Related </h3>
 </div>
-<br>
 <div>
     <ul>
         <li><a href="http://www.epic.or.kr/index.jsp" class="external text" rel="nofollow" target="_blank">전력정보센터(EPIC)</a></li>
@@ -156,7 +148,6 @@ nav_order: 5
 <div class="sub-title">
     <h3> 채용정보 </h3>
 </div>
-<br>
 <div>
     <ul>
     <li><a href="http://kepco-enc.incruit.com" class="external text" rel="nofollow" target="_blank">한국전력기술</a></li>
