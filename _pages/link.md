@@ -59,7 +59,7 @@ nav_order: 5
         <li><a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers" class="external text" rel="nofollow" target="_blank">JOURNAL OF SYSTEMS ARCHITECTURE (17.13% by JCR 2020)</a></li>
         <li><a href="https://www.mdpi.com/journal/sensors/special_issues" class="external text" rel="nofollow" target="_blank">MDPI Sensors Special Issues (21.09% by JCR 2020)</a></li>
         <li><a href="https://ieeeaccess.ieee.org/special-sections/" class="external text" rel="nofollow" target="_blank">IEEE Access (34.25% by JCR 2020)</a></li>
-        <li><a href=" https://link.springer.com/journal/11227/updates" class="external text" rel="nofollow" target="_blank">The Journal of Supercomputing (60.2% by JCR 2022)</a></li>
+        <li><a href=" https://link.springer.com/journal/11227/updates" class="external text" rel="nofollow" target="_blank">The Journal of Supercomputing (23.9% by JCR 2022)</a></li>
     </ul>
 </div>
 <div class="sub-title">
