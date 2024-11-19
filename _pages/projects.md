@@ -14,10 +14,24 @@ horizontal: false
 </div>
 <hr>
 <div>
-  <ul>                
+  <ul>   
+    <li>AI용 파일시스템 분석 및 복구 연구 수행</li>
+    <li>AI 환경에 사용될 수 있는 차세대 파일시스템 (bcachefs, QNX6, FileX)의 구조 분석 및 복구 방안 연구</li> 
+    <li>분석 대상 파일시스템 구조 분석 및 복구 도구 개발</li>               
+    <li>공동 연구 : 한국정보보호학회 디지털포렌식 연구회, 국가정보원</li>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/ax-ecosystem_KIISC.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      AX (AI Transformation) 에코시스템 개요도
+    </div>
+    <hr>             
     <li>사물인터넷(IoT)기기 파일시스템 분석기법 연구 수행</li>
     <li>활용성 높은 IoT기기 파일시스템 4종 (JFFS2, UBIFS, cramfs, squashFS) 이상의 구조 분석</li> 
-    <li>분석 대상 파일시스템 구조분석 및 도구 개발</li>               
+    <li>분석 대상 파일시스템 구조 분석 및 도구 개발</li>               
     <li>분석 대상 파일시스템을 사용하는 IoT기기의 아티팩트 분석</li>
     <li>공동 연구 : 경찰청</li>
     <br>
