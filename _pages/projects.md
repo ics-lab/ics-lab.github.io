@@ -18,7 +18,7 @@ horizontal: false
     <li>AI용 파일시스템 분석 및 복구 연구 수행</li>
     <li>AI 환경에 사용될 수 있는 차세대 파일시스템 (bcachefs, QNX6, FileX)의 구조 분석 및 복구 방안 연구</li> 
     <li>분석 대상 파일시스템 구조 분석 및 복구 도구 개발</li>               
-    <li>공동 연구 : 한국정보보호학회 디지털포렌식 연구회, 국가정보원</li>
+    <li>공동 연구 : 한국정보보호학회 디지털포렌식 연구회</li>
     <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
