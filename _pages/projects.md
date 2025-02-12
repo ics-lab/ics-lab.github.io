@@ -8,13 +8,54 @@ nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
+<div class="sub-title">
+  <h3> Current Research Topics </h3>
+</div>
+<hr>
+<div>
+  <ul>
+    <li>Filesystem/Metadata/Binary Analysis Forensics</li>
+    <li>IT/OT DFIR, Smart Home/City/Building Forensics</li>
+    <li>Network Forensics(Matter/WiFi/BT/Zigbee/Thread, 5/6G OpenRAN)</li>
+    <li>Deep Fake Detection/Forensics etc.</li>
+  </ul>
+</div>
+<hr>
 
 <div class="sub-title">
   <h3> Digital Forensics </h3>
 </div>
 <hr>
 <div>
-  <ul>   
+  <ul>
+    <li>스마트홈 융합포렌식 연구</li>
+    <li>스마트홈 플랫폼 및 IoT 기기 대상 데이터 획득 기법 연구</li> 
+    <li>플랫폼 내 IoT 기기, 클라우드 서버와 같은 구성요소 간 아티팩트 식별 및 분석</li>               
+    <li>공동 연구 : 경찰청</li>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/2025smarthome.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      LG ThinQ 및 U+ 플랫폼의 스마트홈 구성 개요도
+    </div>
+    <hr>
+    <li>전력 IoT 시스템 디지털 포렌식 기술 개발</li>
+    <li>전력 IoT 관리용 기기 데이터 저장 구조 분석 및 데이터 추출</li> 
+    <li>기기 내 사용자 관련 아티팩트 분석 방안 도출</li>               
+    <li>공동 연구 : 한국전력공사</li>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/DCU.JPG" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      전력 IoT 시스템 테스트베드 구성
+    </div>
+    <hr>   
     <li>AI용 파일시스템 분석 및 복구 연구 수행</li>
     <li>AI 환경에 사용될 수 있는 차세대 파일시스템 (bcachefs, QNX6, FileX)의 구조 분석 및 복구 방안 연구</li> 
     <li>분석 대상 파일시스템 구조 분석 및 복구 도구 개발</li>               
