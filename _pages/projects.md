@@ -19,9 +19,28 @@ horizontal: false
     <li>Network Forensics(Matter/WiFi/BT/Zigbee/Thread, 5/6G OpenRAN)</li>
     <li>Deep Fake Detection/Forensics etc.</li>
   </ul>
+
 </div>
 <hr>
 
+<div>
+  <ul>
+    <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
+    <li>6G 환경을 고려한 OpenRAN 플랫폼 아키텍처 분석</li> 
+    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
+    <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
+    <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
+    <br>
+    <hr>
+    <li>전력망 IoT 기기 모니터링 및 포렌식 대응 기술 연구</li>
+    <li>전력망 IoT 기기 포렌식 기반 취약점 분석 기술 및 점검 도구 개발</li> 
+    <li>전력망 IoT 기기 융합보안 위협 대응을 위한 포렌식 가이드라인 개발</li>               
+    <li>공동 연구 : 전력거래소(KPX)</li>
+    <br>
+  </ul>
+</div>
+
+<hr>
 <div class="sub-title">
   <h3> Digital Forensics </h3>
 </div>
