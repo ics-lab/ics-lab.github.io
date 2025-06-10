@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 <div class="sub-title">
-  <h3> Current Research Topics </h3>
+  <h3> Research Topics </h3>
 </div>
 <hr>
 <div>
@@ -22,7 +22,10 @@ horizontal: false
 
 </div>
 <hr>
-
+<div class="sub-title">
+  <h3> Current Research</h3>
+</div>
+<hr>
 <div>
   <ul>
     <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
