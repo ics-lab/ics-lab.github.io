@@ -61,8 +61,7 @@ horizontal: false
     <hr>
     <li>‘25년 최신 웨어러블 기기 및 보안저장장치 분석기법 연구</li>
     <li>웨어러블 기기 및 보안저장장치 기기 구조 및 동작 원리 분석 </li>
-    <li>웨어러블 기기 및 보안저장장치 데이터 획득 및 분석 기법 도출</li> 
-    <li></li>               
+    <li>웨어러블 기기 및 보안저장장치 데이터 획득 및 분석 기법 도출</li>             
     <li>공동 연구 : 경찰청</li>
         <br>
     <div class="row justify-content-sm-center">
