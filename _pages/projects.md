@@ -33,12 +33,46 @@ horizontal: false
     <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
     <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
     <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/openran.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      OpenRAN 플랫폼 구성도
+    </div>
     <br>
     <hr>
     <li>전력망 IoT 기기 모니터링 및 포렌식 대응 기술 연구</li>
     <li>전력망 IoT 기기 포렌식 기반 취약점 분석 기술 및 점검 도구 개발</li> 
     <li>전력망 IoT 기기 융합보안 위협 대응을 위한 포렌식 가이드라인 개발</li>               
     <li>공동 연구 : 전력거래소(KPX)</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/kpx.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      EPRI의 침해사고 대응 및 포렌식 가이드라인 프로그램
+    </div>
+    <br>
+    <hr>
+    <li>‘25년 최신 웨어러블 기기 및 보안저장장치 분석기법 연구</li>
+    <li>웨어러블 기기 및 보안저장장치 기기 구조 및 동작 원리 분석 </li>
+    <li>웨어러블 기기 및 보안저장장치 데이터 획득 및 분석 기법 도출</li> 
+    <li></li>               
+    <li>공동 연구 : 경찰청</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/2025wearable.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      웨어러블 기기 네트워크 구성도 
+    </div>
     <br>
   </ul>
 </div>
