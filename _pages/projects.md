@@ -36,7 +36,7 @@ horizontal: false
         <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/openran.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/research/openran.JPG" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
@@ -51,7 +51,7 @@ horizontal: false
         <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/kpx.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/research/kpx.JPG" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
