@@ -28,22 +28,44 @@ horizontal: false
 <hr>
 <div>
   <ul>
-    <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
-    <li>6G 환경을 고려한 OpenRAN 플랫폼 아키텍처 분석</li> 
+    <li>도메인 독립적 멀티에이전트 포렌식 프레임워크</li>
+    <li>Skill·Memory·Sub-agent·Guardrails·Hooks·Provenance</li> 
     <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
-    <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
-    <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
+    <li>확률적 LLM을 결정론적 분석 절차 통제 메커니즘 구현·평가 </li>             
+    <li>공동 연구 : 한국정보보호학회, 디지털포렌식 연구회</li>
         <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/openran.JPG" title="example image" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/research/multiagent.png" title="example image" class="img-fluid rounded" %}
       </div>
     </div>
     <div class="caption">
-      OpenRAN 플랫폼 구성도
+      멀티 에이전트 시스템
     </div>
     <br>
-    <hr>
+  </ul>
+</div>
+
+<hr>
+<div class="sub-title">
+  <h3> Digital Forensics </h3>
+</div>
+<hr>
+<div>
+  <ul>
+    <li>Matter 스마트홈 포렌식 연구</li>
+    <li>Matter 스마트홈 환경 대상 데이터 추출 기술 개발</li>               
+    <li>공동 연구 : 연구재단</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/mattersmarthome.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      매터 스마트홈 포렌식 테스트베드
+    </div>
+    <br>
     <li>전력망 IoT 기기 모니터링 및 포렌식 대응 기술 연구</li>
     <li>전력망 IoT 기기 포렌식 기반 취약점 분석 기술 및 점검 도구 개발</li> 
     <li>전력망 IoT 기기 융합보안 위협 대응을 위한 포렌식 가이드라인 개발</li>               
@@ -57,7 +79,6 @@ horizontal: false
     <div class="caption">
       EPRI의 침해사고 대응 및 포렌식 가이드라인 프로그램
     </div>
-    <br>
     <hr>
     <li>‘25년 최신 웨어러블 기기 및 보안저장장치 분석기법 연구</li>
     <li>웨어러블 기기 및 보안저장장치 기기 구조 및 동작 원리 분석 </li>
@@ -72,17 +93,7 @@ horizontal: false
     <div class="caption">
       웨어러블 기기 네트워크 구성도 
     </div>
-    <br>
-  </ul>
-</div>
-
-<hr>
-<div class="sub-title">
-  <h3> Digital Forensics </h3>
-</div>
-<hr>
-<div>
-  <ul>
+    <hr>
     <li>스마트홈 융합포렌식 연구</li>
     <li>스마트홈 플랫폼 및 IoT 기기 대상 데이터 획득 기법 연구</li> 
     <li>플랫폼 내 IoT 기기, 클라우드 서버와 같은 구성요소 간 아티팩트 식별 및 분석</li>               
@@ -328,6 +339,21 @@ horizontal: false
 </div>
 <hr>
 <div>
+    <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
+    <li>6G 환경을 고려한 OpenRAN 플랫폼 아키텍처 분석</li> 
+    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
+    <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
+    <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/openran.JPG" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      OpenRAN 플랫폼 구성도
+    </div>
+    <br>
   <ul>
     <li>이더넷 기반 통신 정량적 진단 방안 및 툴 개발</li>
     <li>이더넷 기반 통신 패킷 분석 및 이상 진단 기술 연구</li>
