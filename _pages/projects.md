@@ -19,7 +19,6 @@ horizontal: false
     <li>Network Forensics(Matter/WiFi/BT/Zigbee/Thread, 5/6G OpenRAN)</li>
     <li>Deep Fake Detection/Forensics etc.</li>
   </ul>
-
 </div>
 <hr>
 <div class="sub-title">
@@ -28,35 +27,10 @@ horizontal: false
 <hr>
 <div>
   <ul>
-    <li>도메인 독립적 멀티에이전트 포렌식 프레임워크</li>
-    <li>Skill·Memory·Sub-agent·Guardrails·Hooks·Provenance</li> 
-    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
-    <li>확률적 LLM을 결정론적 분석 절차 통제 메커니즘 구현·평가 </li>             
-    <li>공동 연구 : 한국정보보호학회, 디지털포렌식 연구회</li>
-        <br>
-    <div class="row justify-content-sm-center">
-      <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/multiagent.png" title="example image" class="img-fluid rounded" %}
-      </div>
-    </div>
-    <div class="caption">
-      멀티 에이전트 시스템
-    </div>
-    <br>
-  </ul>
-</div>
-
-<hr>
-<div class="sub-title">
-  <h3> Digital Forensics </h3>
-</div>
-<hr>
-<div>
-  <ul>
     <li>Matter 스마트홈 포렌식 연구</li>
     <li>Matter 스마트홈 환경 대상 데이터 추출 기술 개발</li>               
     <li>공동 연구 : 연구재단</li>
-        <br>
+    <br>
     <div class="row justify-content-sm-center">
       <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.html path="assets/img/research/mattersmarthome.png" title="example image" class="img-fluid rounded" %}
@@ -66,6 +40,59 @@ horizontal: false
       매터 스마트홈 포렌식 테스트베드
     </div>
     <br>
+    <li>분산형 집합자원 네트워크 표준모델 및 보안체계 개발 연구</li>
+    <li>VPP·DR 관련 사이버보안 표준, 위협 사례, Governance 분석</li>
+    <li>VPP·DR 네트워크 표준모델 및 보안체계 분석 및 개발</li>                
+    <li>공동 연구 : 전력거래소(KPX)</li>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/2026KPX.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      VPP·DR 환경 구성도
+    </div>
+    <br>      
+    <li>도메인 독립적 멀티에이전트 포렌식 프레임워크</li>
+    <li>Skill·Memory·Sub-agent·Guardrails·Hooks·Provenance</li> 
+    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
+    <li>확률적 LLM을 결정론적 분석 절차 통제 메커니즘 구현·평가 </li>             
+    <li>공동 연구 : 한국정보보호학회, 디지털포렌식 연구회</li>
+    <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/multiagent.png" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      멀티 에이전트 시스템
+    </div>
+    <br>
+    <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
+    <li>6G 환경을 고려한 OpenRAN 플랫폼 아키텍처 분석</li> 
+    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
+    <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
+    <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
+        <br>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/openran.JPG" title="example image" class="img-fluid rounded" %}
+      </div>
+    </div>
+    <div class="caption">
+      OpenRAN 플랫폼 구성도
+    </div>
+    <br>    
+  </ul>
+</div>
+<hr>
+<div class="sub-title">
+  <h3> Digital Forensics </h3>
+</div>
+<hr>
+<div>
+  <ul>
     <li>전력망 IoT 기기 모니터링 및 포렌식 대응 기술 연구</li>
     <li>전력망 IoT 기기 포렌식 기반 취약점 분석 기술 및 점검 도구 개발</li> 
     <li>전력망 IoT 기기 융합보안 위협 대응을 위한 포렌식 가이드라인 개발</li>               
@@ -339,21 +366,6 @@ horizontal: false
 </div>
 <hr>
 <div>
-    <li>6G 통신 환경을 고려한 OpenRAN 보안 취약점 분석 및 실증 연구</li>
-    <li>6G 환경을 고려한 OpenRAN 플랫폼 아키텍처 분석</li> 
-    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
-    <li>OpenRAN 테스트베드 대상 취약성 분석 </li>             
-    <li>공동 연구 : 한국인터넷진흥원(KISA)</li>
-        <br>
-    <div class="row justify-content-sm-center">
-      <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research/openran.JPG" title="example image" class="img-fluid rounded" %}
-      </div>
-    </div>
-    <div class="caption">
-      OpenRAN 플랫폼 구성도
-    </div>
-    <br>
   <ul>
     <li>이더넷 기반 통신 정량적 진단 방안 및 툴 개발</li>
     <li>이더넷 기반 통신 패킷 분석 및 이상 진단 기술 연구</li>
