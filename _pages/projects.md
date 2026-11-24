@@ -56,7 +56,6 @@ horizontal: false
     <br>      
     <li>도메인 독립적 멀티에이전트 포렌식 프레임워크</li>
     <li>Skill·Memory·Sub-agent·Guardrails·Hooks·Provenance</li> 
-    <li>오픈소스를 활용한 랩 OpenRAN 테스트베드 구축</li>
     <li>확률적 LLM을 결정론적 분석 절차 통제 메커니즘 구현·평가 </li>             
     <li>공동 연구 : 한국정보보호학회, 디지털포렌식 연구회</li>
     <br>
